@@ -1,27 +1,25 @@
-
-.flex3  {
+.header  {
   background-color: lightgray;
  display: flex;
  flex-direction: row;
- padding: 20px;
+ padding: 40px;
  justify-content: space-between;
  align-items: center;
  width: 100%;
 }
 
-#a{
+#h3-name{
  color: red;
  text-align: center;
 
 }
-#b{
+#h3-border{
  
  text-align: center;
  border: solid;
  border-color: lightgrey;
  border-width: 1px;;
- padding-top:50px;
- padding-bottom: 50px;
+ padding: 50px 0 50px 0;
 margin: 0 auto;
 width : 55.55%;
 }
@@ -31,21 +29,10 @@ width : 55.55%;
  flex-direction: row;
  padding: 20px;
  align-items: center;
- width: 100%;
-}
+ width: 100%;}
 
-.f {
 
- background-color: lightgray;
- display: flex;
- flex-direction: row;
- margin: 5% auto;
- padding: 20px;
- align-items: center;
- text-align: center;
- width: 100%
-}
-#r {
+#contact-paragraph {
  color: maroon;
  text-align: center;
 }
@@ -55,4 +42,25 @@ width : 55.55%;
 #s{
  display: block;
  margin: 0 auto ;
+}
+
+
+.footer-2{
+  background-color: lightgray;
+  position: sticky;
+  top:100%;
+  text-align: center;
+margin-top:auto;
+padding:55px;
+width: 100%;
+}
+#paragraph-2{
+  background-color:lightgray;
+padding: 55px;
+position: sticky;
+top: 100%;
+margin-top: auto;
+width:100%;
+ 
+
 }
