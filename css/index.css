@@ -1,16 +1,16 @@
-
+body{
+  min-height: 100vh;
+}
 .flex  {
   background-color: lightgray;
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 50px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
 }
-/*body{
-  min-height: 100vh;
-}*/
+
 .d{
   text-align: center;
 }
@@ -45,19 +45,21 @@ table  thead td{
   width: 50px;
 }
 
-.flex2  {
-  background-color: lightgray;
-  display: flex;
-  flex-direction: column;
-  margin: 15% auto;
-  padding: 20px;
-  align-items: center;
+.footer{
+  position: sticky;
+  top:100%;
   text-align: center;
-  width: 100%;
-
-
+margin-top:auto;
 }
+#paragraph{
+  background-color:lightgray;
+  padding: 50px;
+position: sticky;
+top: 100%;
+margin-top: auto;
+width:100%;
 
-#h5{
-  text-align: center;
+
+  
+
 }
